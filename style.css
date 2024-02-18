@@ -20,6 +20,15 @@ button {
     /* borda */
     padding: 10px;
     border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+opacity: 0.9;
+}
+
+button:active{
+    opacity: 0.6;
 }
 
 h2 {
@@ -42,6 +51,30 @@ p {
 .logo {
     width: 80px;
 }
+
+nav{
+    display: flex;
+    align-items: center;
+    }
+
+    .botao{
+        display: flex;
+        gap: 35px;
+        justify-content: end;
+        margin-left: 50px;
+      font-size: 18px;
+        font-weight: 20px;
+        cursor: pointer;
+        }
+
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    
+    a:hover{
+        color: #0e8c57;
+    }
 
 .copo-grande {
     width: 340px;
